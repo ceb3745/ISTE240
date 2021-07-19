@@ -1,0 +1,26 @@
+
+/* ----------------
+    Beginning of Main Content Styles
+  ---------------- */
+
+  main{
+    width: 90%;
+    margin: 120px auto 50px;
+}
+
+main h1{
+    font-size: 28px;
+    width: auto;
+    text-align: center;
+}
+
+main h2{
+    font-size: 24px;
+    width: auto;
+    text-align: center;
+}
+
+main p{
+    font-family: sans-serif;
+    font-size: 16px;
+}

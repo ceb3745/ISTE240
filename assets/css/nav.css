@@ -1,0 +1,138 @@
+/* css reset */
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* background color */
+html{
+    background-color: #d9d9d9;
+}
+
+/* ----------------
+Formatting for Navigation
+  ---------------- */
+
+/* sets display to flex, sets positioning, and basic styles */
+nav{
+    background-color: #c4c4c4;
+    color: black;
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+}
+
+/*adjusts font size*/
+nav h1{
+    font-size: 28px;
+}
+nav h2{
+    font-size: 20px;
+}
+
+/* ----------------
+Formatting for Logo
+  ---------------- */
+
+#logo{
+    width: 60px;
+    margin: 0px 16px;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#logo:hover{
+    background-color: #aaaaaa;
+}
+
+/* ----------------
+Formatting for All Lists in Nav
+  ---------------- */
+
+/* css reset for ul, and removes bullets */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* sets width of all list elements, adds animations, and aligns text */
+nav li{
+    width: 215px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: .5s;
+    box-sizing: border-box;
+}
+
+/* removes default link formatting */
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* adds hover formatting for links */
+nav li:hover{
+    background-color: #aaaaaa;
+}
+
+/* ----------------
+Formatting for Category List
+  ---------------- */
+
+nav > ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+}
+
+/* adjusts size and spacing of dropdown arrows */
+.dropdown{
+    height: 12px;
+    padding: 2px 0px 0px 12px;
+}
+
+.category{
+    width: 100%;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/* formating for category sub-lists */
+
+nav li ul{
+    margin-top: 0px;
+    display: none;
+    position: absolute;
+    font-weight: normal;
+}
+
+nav li:hover ul{
+    display: block;
+    background-color: #c4c4c4;
+}
+
+nav li li a {
+    display: block;
+    margin: 0px;
+    padding: 1px;
+}
+
+nav li li a:hover {
+    cursor:pointer;
+}
+
+/* ----------------
+    End of Navigation Styles
+  ---------------- */
+
+
+
