@@ -25,6 +25,7 @@ nav{
     top: 0px;
     width: 100%;
     height: 80px;
+    z-index: 10;
 }
 
 /*adjusts font size*/
@@ -131,8 +132,109 @@ nav li li a:hover {
 }
 
 /* ----------------
+    Styles for the sidebar menu
+  ---------------- */
+
+#sidebar{
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    list-style: none;
+}
+
+#sidebar a{
+    color: grey;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#sidebar a:hover{
+    text-decoration: underline;
+}
+
+#sidebar a:visited{
+    color: black;
+}
+
+/* ----------------
     End of Navigation Styles
   ---------------- */
 
 
 
+/* ----------------
+    Beginning of Main Content Styles
+  ---------------- */
+
+main{
+    width: 90%;
+    margin: 120px auto 50px;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* ----------------
+    Styles for Special Link Types
+  ---------------- */
+
+/* Styles for links linking to category pages */
+.categorylink{
+    text-decoration: none;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #c4c4c4;
+    color: black;
+    width: 300px;
+    height: 160px;
+    margin: 40px 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.categorylink p{
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    box-sizing: border-box;
+    transition-property: height padding;
+    transition-duration: .3s;
+}
+
+.categorylink:hover p {
+    height: 0px;
+    padding: 0px;
+}
+
+/* Styles for links linking to other pages */
+.pagelink{
+    text-decoration: none;
+    display: flex;
+    background-color: #c4c4c4;
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin: 32px auto;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagelink:hover{
+    text-decoration: underline;
+}
