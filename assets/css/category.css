@@ -1,0 +1,16 @@
+/* ----------------
+    Beginning of Main Content Styles
+  ---------------- */
+
+main{
+    width: 85%;
+    margin-left: 10%;
+}
+
+main h1{
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+}
