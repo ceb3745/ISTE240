@@ -1,7 +1,7 @@
 <?php
     $Page = "How to use UNIX";
     $Path = "../";
-    include $path.'nav.php'
+    include $path.'assets/inc/nav.php'
 ?>
     
     <body>
