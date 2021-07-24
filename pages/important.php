@@ -1,7 +1,7 @@
 <?php
     $Page = "Why is UNIX important?";
     $Path = "../";
-    include $path.'nav.php'
+    include $path.'assets/inc/nav.php'
 ?>
     
     <body>
