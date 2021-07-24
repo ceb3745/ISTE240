@@ -1,7 +1,7 @@
 <?php
     $Page = "Basic Commands";
     $Path = "../";
-    include $path.'nav.php'
+    include $path.'assets/inc/nav.php'
 ?>
     
     <body>
