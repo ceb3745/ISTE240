@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/nav.css">
-    <link rel="stylesheet" href="/assets/css/category.css">
-    <title>Unix Website Title</title>
-</head>
-<body>
-    <header id="nav-placeholder">
+
+        <?php 
+            $Page = "Category 1";
+            $Path = "../";
+        include($Path.'assets/inc/nav.php'); ?>
     </header>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="/assets/js/loadnav.js"></script>
@@ -43,6 +36,7 @@
 	This lesson will explain how to edit and move your files using UNIX.
 	</p>
 	<a href="link_to_files">File Management</a>
+	
     </main>
 </body>
 </html> 
