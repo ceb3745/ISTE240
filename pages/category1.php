@@ -2,6 +2,7 @@
         <?php 
             $Page = "Category 1";
             $Path = "../";
+            $Style = $Path."/assets/css/category.css";
         include($Path.'assets/inc/nav.php'); ?>
     </header>
     
