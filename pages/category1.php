@@ -1,11 +1,8 @@
-
-        <?php 
-            $Page = "Category 1";
-            $Path = "../";
-            $Style = $Path."/assets/css/category.css";
-        include($Path.'assets/inc/nav.php'); ?>
-    </header>
-    
+<?php 
+	$Page = "Files";
+	$Path = "../";
+    $Style = $Path."/assets/css/dynamicstyle.css";
+include($Path.'assets/inc/nav.php'); ?>
     <ul id="sidebar">
         <li>
             <a href="./pages/lesson1.php"><h2>Lesson 1</h2></a>

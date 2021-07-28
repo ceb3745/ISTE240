@@ -1,12 +1,15 @@
 <?php
     $Page = "Basic Commands";
     $Path = "../";
-    $Style = $Path."/assets/css/content.css";
+    $Style = $Path."/assets/css/style.css";
 include($Path.'assets/inc/nav.php'); ?>
 
+
+        <main>
         <h1>Basic UNIX Commands</h1>
         <div>
             <h3>ls</h3>
+            <div class="demo"> 
             <ul>
                 <p>ls means list; it writes out selected information</p>
                 <li>ls-a: shows all files (files starting with . may be hidden)</li>
@@ -16,7 +19,9 @@ include($Path.'assets/inc/nav.php'); ?>
                 <li>ls-S: sorts files by size</li>
                 <p>There are many other ls commands, but these are the most commonly used</p>
             </ul>
+            </div>
             <h3>Other commands</h3>
+            <div class="demo"> 
             <ul>
                 <li>touch: creates an empty file</li>
                 <li>mv file1 file 2: renames file1 to file2</li>
@@ -26,8 +31,10 @@ include($Path.'assets/inc/nav.php'); ?>
                 <li>rm dir: deletes the directory</li>
                 <li>cat file1 file2: prints the files to the screen</li>
             </ul>
+            </div>
         </div>
-    </body>
+            </main>
+
 <?php
     $Path = "../";
 include($Path.'assets/inc/footer.php'); ?>

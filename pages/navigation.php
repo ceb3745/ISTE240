@@ -1,10 +1,11 @@
-<?php
-    $Page = "Navigation";
-    $Path = "../";
-    $Style = $Path."/assets/css/content.css";
+<?php 
+	$Page = "Files";
+	$Path = "../";
+    $Style = $Path."/assets/css/dynamicstyle.css";
 include($Path.'assets/inc/nav.php'); ?>
     
-    <body>
+
+        <main>
         <h1>Navigation</h1>
         <div><h3>Heirarchy</h3>
             <p>Sibling directories exist in the same directory
@@ -27,6 +28,7 @@ include($Path.'assets/inc/nav.php'); ?>
         </div>
         <div>
             <h3>Commands</h3>
+               <div class="demo"> 
             <ul>
                 <li>cd: change directory</li>
                 <li>mkdir pathname: creates a new, empty directory at the given point</li>
@@ -34,12 +36,15 @@ include($Path.'assets/inc/nav.php'); ?>
                 <li>rmdir pathname: removes empty directory</li>
                 <li>ls pathname: lists contents of the given directory</li>
             </ul>
+
+
+</div>
         </div>
 
 
 
+</main>
 
-    </body>
 <?php
     $Path = "../";
 include($Path.'assets/inc/footer.php'); ?>

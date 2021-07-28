@@ -1,11 +1,10 @@
-<?php
-    $Page = "How to use UNIX";
-    $Path = "../";
-    $Style = $Path."/assets/css/content.css";
-    include $path.'assets/inc/nav.php'
-?>
-    
-    <body>
+<?php 
+	$Page = "Files";
+	$Path = "../";
+    $Style = $Path."/assets/css/dynamicstyle.css";
+include($Path.'assets/inc/nav.php'); ?>   
+
+        <main>
         <h1>How to use UNIX</h1>
         <div>
             <h3>How to open Unix on Mac</h3>
@@ -15,7 +14,7 @@
             <h3>How to open Unix on Windows</h3>
             <p>A free SSH client available for MS Windows computers called PuTTY can be used, but may need to be downloaded first. UNIX can also be used through Command Prompt, which is included in most Windows computers.</p>
         </div>
-    </body>
+            </main>
 <?php
     $Path = "../";
 include($Path.'assets/inc/footer.php'); ?>

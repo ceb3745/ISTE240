@@ -1,15 +1,12 @@
-
-        <?php 
-            $Page = "Commands";
-            $Path = "../";
-            $Style = $Path."/assets/css/content.css";
-        include($Path.'assets/inc/nav.php'); ?>
-    </header>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="/assets/js/loadnav.js"></script>
-
+<?php 
+	$Page = "Files";
+	$Path = "../";
+    $Style = $Path."/assets/css/dynamicstyle.css";
+include($Path.'assets/inc/nav.php'); ?>
+    
     <main>
-        <h1>Commands in UNIX</h1>
+        <br>
+  <h1>Commands in UNIX</h1>
         <p>
         There are many different commands you will need to know in order to effectively make use of all that UNIX has to offer. 
 	In this section, some of the most common commands available in UNIX are going to be covered.
@@ -39,7 +36,6 @@
 	<a href="link_to_files">File Management</a>
 	
     </main>
-</body>
 <?php 
     $Path = "../";
     include($Path.'assets/inc/footer.php'); 
