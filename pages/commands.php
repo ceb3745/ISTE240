@@ -1,7 +1,8 @@
 
         <?php 
-            $Page = "Category 1";
+            $Page = "Commands";
             $Path = "../";
+            $Style = $Path."/assets/css/content.css";
         include($Path.'assets/inc/nav.php'); ?>
     </header>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -39,4 +40,7 @@
 	
     </main>
 </body>
-</html> 
+<?php 
+    $Path = "../";
+    include($Path.'assets/inc/footer.php'); 
+?>

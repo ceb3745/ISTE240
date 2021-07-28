@@ -4,66 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" <?php echo "href='".$Path."assets/css/style.css'" ?>>
+    <link rel="stylesheet" <?php echo "href='".$Path."assets/css/dynamicstyle.css'" ?>>
     <link rel="stylesheet" <?php echo "href='".$Style."'"?>>
+    <script type="text/javascript" <?php echo "src='".$Path."assets/js/nav.js'" ?>></script>
     <title><?php echo $Page; ?></title>
 </head>
 <body>
-<nav>
+    <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Lesson 1 
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+    </div> 
+        <div class="dropdown">
+        <button class="dropbtn">Lesson 2 
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+    </div> 
+        <div class="dropdown">
+        <button class="dropbtn">Lesson 3 
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+    </div> 
+        
+
+
+    <a  href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
     <a <?php echo "href='".$Path."index.php'"?>>
-        <img id="logo" <?php echo "src='".$Path."assets/images/logo.png'"?> alt="logo">
+        <img class="smalllogo" <?php echo "src='".$Path."assets/images/smalllogo.svg'"?> alt="logo" width="80" height="80">
     </a>
-    <ul>
-        <li>
-            <div class="category">
-                <a <?php echo "href='".$Path."pages/category1.php'"?>><h1>Category 1</h1></a>
-                <img class="dropdown" <?php echo "src='".$Path."assets/images/dropdown.png'"?> alt="dropdown arrow">
-            </div>
-            <ul>
-                <li>
-                    <a <?php echo "href='".$Path."pages/lesson1.php'"?>><h2>Lesson 1</h2></a>
-                </li>
-                <li>
-                    <a <?php echo "href='".$Path."pages/lesson2.php'"?>><h2>Lesson 2</h2></a>
-                </li>
-                <li>
-                    <a <?php echo "href='".$Path."pages/lesson3.php'"?>><h2>Lesson 3</h2></a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <div class="category">
-                <a <?php echo "href='".$Path."pages/category2.php'"?>><h1>Category 2</h1></a>
-                <img class="dropdown" <?php echo "src='".$Path."assets/images/dropdown.png'"?> alt="dropdown arrow">
-            </div>
-            <ul>
-                <li>
-                    <a <?php echo "href='".$Path."pages/lesson1.php'"?>><h2>Lesson 1</h2></a>
-                </li>
-                <li>
-                    <a <?php echo "href='".$Path."pages/lesson2.php'"?>><h2>Lesson 2</h2></a>
-                </li>
-                <li>
-                    <a <?php echo "href='".$Path."pages/lesson3.php'"?>><h2>Lesson 3</h2></a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <div class="category">
-                <a <?php echo "href='".$Path."pages/category3.php'"?>><h1>Category 3</h1></a>
-                <img class="dropdown" <?php echo "src='".$Path."assets/images/dropdown.png'"?> alt="dropdown arrow">
-            </div>
-            <ul>
-                <li>
-                    <a <?php echo "href='".$Path."pages/lesson1.php'"?>><h2>Lesson 1</h2></a>
-                </li>
-                <li>
-                    <a <?php echo "href='".$Path."pages/lesson2.php'"?>><h2>Lesson 2</h2></a>
-                </li>
-                <li>
-                    <a <?php echo "href='".$Path."pages/lesson3.php'"?>><h2>Lesson 3</h2></a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</nav>
+    

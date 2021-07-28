@@ -8,13 +8,13 @@
     
     <ul id="sidebar">
         <li>
-            <a href="/pages/lesson1.php"><h2>Lesson 1</h2></a>
+            <a href="./pages/lesson1.php"><h2>Lesson 1</h2></a>
         </li>
         <li>
-            <a href="/pages/lesson2.php"><h2>Lesson 2</h2></a>
+            <a href="./pages/lesson2.php"><h2>Lesson 2</h2></a>
         </li>
         <li>
-            <a href="/pages/lesson3.php"><h2>Lesson 3</h2></a>
+            <a href="./pages/lesson3.php"><h2>Lesson 3</h2></a>
         </li>
     </ul>
 
@@ -38,4 +38,7 @@
         <a class="pagelink" href="lesson1.php"><p>Link to Subcategory</p></a>
     </main>
 </body>
-</html>
+<?php 
+    $Path = "../";
+    $Style = $Path."/assets/css/category.css";
+include($Path.'assets/inc/footer.php'); ?>

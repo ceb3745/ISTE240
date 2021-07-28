@@ -1,8 +1,9 @@
 
-          <?php 
-            $Page = "Lesson 1";
-            $Path = "../";
-        include($Path.'assets/inc/nav.php'); ?>
+<?php 
+	$Page = "Files";
+	$Path = "../";
+    $Style = $Path."/assets/css/content.css";
+include($Path.'assets/inc/nav.php'); ?>
 </header>
 
 <main>
@@ -114,4 +115,6 @@
     </main>
 
 </body>
-</html> 
+<?php 
+	$Path = "../";
+include($Path.'assets/inc/footer.php'); ?>

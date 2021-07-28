@@ -1,6 +1,7 @@
 <?php
     $Page = "How to use UNIX";
     $Path = "../";
+    $Style = $Path."/assets/css/content.css";
     include $path.'assets/inc/nav.php'
 ?>
     
@@ -15,3 +16,6 @@
             <p>A free SSH client available for MS Windows computers called PuTTY can be used, but may need to be downloaded first. UNIX can also be used through Command Prompt, which is included in most Windows computers.</p>
         </div>
     </body>
+<?php
+    $Path = "../";
+include($Path.'assets/inc/footer.php'); ?>

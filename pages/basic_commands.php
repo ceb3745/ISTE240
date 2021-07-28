@@ -1,10 +1,9 @@
 <?php
     $Page = "Basic Commands";
     $Path = "../";
-    include $path.'assets/inc/nav.php'
-?>
-    
-    <body>
+    $Style = $Path."/assets/css/content.css";
+include($Path.'assets/inc/nav.php'); ?>
+
         <h1>Basic UNIX Commands</h1>
         <div>
             <h3>ls</h3>
@@ -29,3 +28,6 @@
             </ul>
         </div>
     </body>
+<?php
+    $Path = "../";
+include($Path.'assets/inc/footer.php'); ?>

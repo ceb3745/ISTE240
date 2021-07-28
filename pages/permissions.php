@@ -1,8 +1,8 @@
 <?php
     $Page = "Permissions";
     $Path = "../";
-    include $path.'assets/inc/nav.php'
-?>
+    $Style = $Path."/assets/css/content.css";
+include($Path.'assets/inc/nav.php'); ?>
     
     <body>
         <h1>Permissions</h1>
@@ -40,3 +40,6 @@
             <li>Chmod a=rwx		Sets all permissions to rwx</li>
         </ul>
     </body>
+<?php
+    $Path = "../";
+include($Path.'assets/inc/footer.php'); ?>
