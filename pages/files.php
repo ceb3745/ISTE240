@@ -1,5 +1,5 @@
 <?php 
-	$Page = "Files";
+	$Page = "File Management (SFTP)";
 	$Path = "../";
     $Style = $Path."/assets/css/dynamicstyle.css";
 include($Path.'assets/inc/nav.php'); ?> 
@@ -125,4 +125,6 @@ include($Path.'assets/inc/nav.php'); ?>
 
 <?php 
 	$Path = "../";
+  $Left = "./category3.php";
+  $Right = "./ssh.php";
 include($Path.'assets/inc/footer.php'); ?>

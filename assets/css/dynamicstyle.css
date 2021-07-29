@@ -6,27 +6,25 @@ body {
     margin: 10px;   
 }
 
-img.smalllogo{
-    display: block;
-    margin-left: 20px;
-    margin-top: -45px;   
+.smalllogo{
+  margin-left: 10px;
 }
 
 /* nav */
 .topnav {
   overflow: hidden;
   background-color: #a7a9ac;
-   
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.topnav a {
+.homebtn {
     width: 215px;
     text-align: center;
     transition-property: background-color;
     transition-duration: .5s;
     box-sizing: border-box;
-    margin-left: 80px;
     float: left;
     display: block;
     color: black;
@@ -34,8 +32,6 @@ img.smalllogo{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 23px;
-  
- 
 }
 
 .active {
@@ -55,15 +51,15 @@ img.smalllogo{
 }
 
 .dropdown .dropbtn {
-    border: none;
+  border: none;
   font-size: 23px;  
-  
+  text-decoration: none;
   outline: none;
   color: black;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
-    width: 215px;
+  width: 215px;
 }
 
 .dropdown-content {
@@ -112,18 +108,14 @@ div.bottom{
     margin-left: auto;
     margin-right: auto;
 }
-img.right{
-    margin-left: 100px;
+
+div.demo{
+  width: 400px;
 }
 
-p.Btitle{
-    margin-left: 100px
-}
-
-img.left{
-    margin-left: 55px;
-}
 div.circles{
+justify-content: space-around;
+width: 100%;
     display: flex;
 }
 hr.thick {height: 2px;
@@ -147,9 +139,16 @@ main{
         margin-left: 20px;
         margin-right: 20px;
     }
+    
+    div.demo{
+      width: 100%;
+    }
 /*bottom Circle nav*/
     div.bottom{
     display: block;
+}
+.topnav {
+  display: block;
 }
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
@@ -160,16 +159,20 @@ main{
   }
 }
 @media screen and (max-width: 600px) {
+
+  .topnav {
+    display: block;
+  }
     /* demo boxes */
   div.demo{
-  background-color: white;
-  width: 400px;
-  padding: 10px;
-  margin: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
      /* end of demo boxes */
   
   .topnav.responsive {position: relative;}

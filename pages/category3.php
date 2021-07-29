@@ -1,17 +1,17 @@
 <?php 
-	$Page = "Introduction to UNIX";
+	$Page = "Advanced UNIX";
 	$Path = "../";
     $Style = $Path."/assets/css/dynamicstyle.css";
 include($Path.'assets/inc/nav.php'); ?>
     <ul id="sidebar">
         <li>
-            <a href="./definition.php"><h2>What is UNIX</h2></a>
+            <a href="./files.php"><h2>SFTP</h2></a>
         </li>
         <li>
-            <a href="./howto.php"><h2>How to Use</h2></a>
+            <a href="./ssh.php"><h2>SSH</h2></a>
         </li>
         <li>
-            <a href="./important.php"><h2>Why is UNIX important</h2></a>
+            <a href="./permissions.php"><h2>File Ownership and Permissions</h2></a>
         </li>
     </ul>
 
@@ -36,6 +36,6 @@ include($Path.'assets/inc/nav.php'); ?>
 </body>
 <?php
     $Path = "../";
-  $Left = "";
-  $Right = "./definition.php";
+  $Left = "./navigation.php";
+  $Right = "./files.php";
 include($Path.'assets/inc/footer.php'); ?>

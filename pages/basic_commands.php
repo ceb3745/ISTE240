@@ -1,7 +1,7 @@
 <?php
     $Page = "Basic Commands";
     $Path = "../";
-    $Style = $Path."/assets/css/style.css";
+    $Style = $Path."/assets/css/dynamicstyle.css";
 include($Path.'assets/inc/nav.php'); ?>
 
 
@@ -37,4 +37,6 @@ include($Path.'assets/inc/nav.php'); ?>
 
 <?php
     $Path = "../";
+    $Left = "./category2.php";
+    $Right = "./commands.php";
 include($Path.'assets/inc/footer.php'); ?>

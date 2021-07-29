@@ -1,17 +1,17 @@
 <?php 
-	$Page = "Introduction to UNIX";
+	$Page = "Basics of UNIX";
 	$Path = "../";
     $Style = $Path."/assets/css/dynamicstyle.css";
 include($Path.'assets/inc/nav.php'); ?>
     <ul id="sidebar">
         <li>
-            <a href="./definition.php"><h2>What is UNIX</h2></a>
+            <a href="./basic_commands.php"><h2>Basic Unix Commands</h2></a>
         </li>
         <li>
-            <a href="./howto.php"><h2>How to Use</h2></a>
+            <a href="./commands.php"><h2>Other Commands</h2></a>
         </li>
         <li>
-            <a href="./important.php"><h2>Why is UNIX important</h2></a>
+            <a href="./navigation.php"><h2>Navigation</h2></a>
         </li>
     </ul>
 
@@ -36,6 +36,6 @@ include($Path.'assets/inc/nav.php'); ?>
 </body>
 <?php
     $Path = "../";
-  $Left = "";
-  $Right = "./definition.php";
+  $Left = "./important.php";
+  $Right = "./basic_commands.php";
 include($Path.'assets/inc/footer.php'); ?>
