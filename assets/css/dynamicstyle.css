@@ -1,0 +1,219 @@
+html{
+    background-color: #e6e7e8;}
+body {
+    margin:0;
+    font-family:Arial;
+    margin: 10px;   
+}
+
+img.smalllogo{
+    display: block;
+    margin-left: 20px;
+    margin-top: -45px;   
+}
+
+/* nav */
+.topnav {
+  overflow: hidden;
+  background-color: #a7a9ac;
+   
+  
+}
+
+.topnav a {
+    width: 215px;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: .5s;
+    box-sizing: border-box;
+    margin-left: 80px;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+  
+ 
+}
+
+.active {
+  background-color: #a7a9ac;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+    
+    
+}
+
+.dropdown .dropbtn {
+    border: none;
+  font-size: 23px;  
+  
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+    width: 215px;
+}
+
+.dropdown-content {
+    
+  display: none;
+  position: absolute;
+  background-color: #e6e7e8;
+  min-width: 164px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-left: -5px;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #a7a9ac;
+  color: #e6e7e8;
+}
+
+.dropdown-content a:hover {
+  background-color: #d9d9d9;
+  color: black;
+} 
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* nav end */
+
+
+/* bottom of the pages */
+div.bottom{
+    display:none;
+}
+ img.Blogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.right{
+    margin-left: 100px;
+}
+
+p.Btitle{
+    margin-left: 100px
+}
+
+img.left{
+    margin-left: 55px;
+}
+div.circles{
+    display: flex;
+}
+hr.thick {height: 2px;
+    background-color: #a7a9ac;
+}
+/* End bottom of the pages */
+
+/*main content*/
+main{
+    width: 80%;
+    margin: 10px auto 50px;
+    
+}
+/*end of main content*/
+
+
+@media screen and (max-width: 600px) {
+    /*body change */
+    body{
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+/*bottom Circle nav*/
+    div.bottom{
+    display: block;
+}
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+    /* demo boxes */
+  div.demo{
+  background-color: white;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+     /* end of demo boxes */
+  
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+    
+    img.smalllogo {
+        display: none;
+    } 
+/*dropdown hover color*/
+.dropdown-content a:hover {
+  background-color:  #e6e7e8;
+  color: black;
+}
+  .topnav a {
+    margin-left: 0px;
+    width: 100px;
+    }
+    
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+    /*nav bottom line */
+   .dropdown .dropbtn { 
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    }
+    
+      /* main section */
+    main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

@@ -1,8 +1,8 @@
 
         <?php 
             $Page = "Home";
-            $Path = "../";
-            $Style = $Path."/assets/css/main.css";
+            $Path = "./";
+            $Style = $Path."assets/css/main.css";
         include($Path.'assets/inc/nav.php'); ?>
     </header>
     

@@ -1,9 +1,9 @@
 
-        <?php 
-            $Page = "Lesson 1";
-            $Path = "../";
-            $Style = $Path."/assets/css/content.css";
-        include($Path.'assets/inc/nav.php'); ?>
+<?php 
+    $Page = "Lesson 1";
+    $Path = "../";
+    $Style = $Path."assets/css/content.css";
+include($Path.'assets/inc/nav.php'); ?>
     </header>
 
     <ul id="sidebar">
@@ -42,4 +42,6 @@
     </main>
 
 </body>
-</html>
+<?php 
+    $Path = "../";
+include($Path.'assets/inc/footer.php'); ?>
