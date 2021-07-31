@@ -16,24 +16,32 @@ include($Path.'assets/inc/nav.php'); ?>
     </ul>
 
     <main>
-        <h1>Category Heading</h1>
+        <h1>Category 1 -- Introduction to Unix</h1>
         <p>
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
+            Welcome to the Category 1!
+        <br>
+            In this tutorial, you will get basic concepts of Unix, how to open this application, and why Unix is essential to learn.
+
         </p>
         <h2>
-            Subcategory 1
+            Lessons 
         </h2>
-        <p>
-            This will have a brief overview of the content for this subcategory and then a link to the page containing that content. This will have a brief overview of 
-            the content for this subcategory and then a link to the page containing that content. This will have a brief overview of the content for this subcategory and 
-            then a link to the page containing that content. This will have a brief overview of the content for this subcategory and then a link to the page containing that content. 
-        </p>
+
+            <ul id="lessons">
+        <li>
+            <a href="./definition.php">What is UNIX</a>
+        </li>
+        <li>
+            <a href="./howto.php">How to Use</a>
+        </li>
+        <li>
+            <a href="./important.php">Why is UNIX important</a>
+        </li>
+    </ul>
+            
+   
     </main>
-</body>
+
 <?php
     $Path = "../";
   $Left = "";

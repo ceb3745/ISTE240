@@ -18,22 +18,23 @@ include($Path.'assets/inc/nav.php'); ?>
     <main>
         <h1>Category Heading</h1>
         <p>
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-        </p>
+            This tutorial will introduce you to the advanced Unix commands. We will dive deep into the Unix File system which is essential to understand Unix commands. This will include SFTP, SSH and File ownership and permissions
         <h2>
-            Subcategory 1
+            lessons
         </h2>
-        <p>
-            This will have a brief overview of the content for this subcategory and then a link to the page containing that content. This will have a brief overview of 
-            the content for this subcategory and then a link to the page containing that content. This will have a brief overview of the content for this subcategory and 
-            then a link to the page containing that content. This will have a brief overview of the content for this subcategory and then a link to the page containing that content. 
-        </p>
+        <ul id="lessons">
+        <li>
+            <a href="./files.php">SFTP</a>
+        </li>
+        <li>
+            <a href="./ssh.php">SSH</a>
+        </li>
+        <li>
+            <a href="./permissions.php">File Ownership and Permissions</a>
+        </li>
+    </ul>
     </main>
-</body>
+
 <?php
     $Path = "../";
   $Left = "./navigation.php";

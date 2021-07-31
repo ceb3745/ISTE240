@@ -16,24 +16,34 @@ include($Path.'assets/inc/nav.php'); ?>
     </ul>
 
     <main>
-        <h1>Category Heading</h1>
+        <h1>Category 2 -- Basics of Unix</h1>
         <p>
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
-            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
+            In this tutorial, you will get to know how to work with Unix Commands.
         </p>
+        <ul>
+                <li>Some basic commands of Is</li>
+                <li>Other commands to work with processes</li>
+                <li>Commands to work with the SSH, Directories and File system</li>
+                <li>cp -R dir1 dir2: copies the contents of the first directory to the second</li>
+                <li>Navigation commands</li>
+            </ul>
         <h2>
-            Subcategory 1
+            Lessons
         </h2>
-        <p>
-            This will have a brief overview of the content for this subcategory and then a link to the page containing that content. This will have a brief overview of 
-            the content for this subcategory and then a link to the page containing that content. This will have a brief overview of the content for this subcategory and 
-            then a link to the page containing that content. This will have a brief overview of the content for this subcategory and then a link to the page containing that content. 
-        </p>
+        
+            <ul id="lessons">
+        <li>
+            <a href="./basic_commands.php">Basic Unix Commands</a>
+        </li>
+        <li>
+            <a href="./commands.php">Other Commands</a>
+        </li>
+        <li>
+            <a href="./navigation.php">Navigation</a>
+        </li>
+    </ul>
     </main>
-</body>
+
 <?php
     $Path = "../";
   $Left = "./important.php";
