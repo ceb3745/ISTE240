@@ -31,5 +31,5 @@
     </main>
 <?php
     $Path = "";
-    $Right = "";
+    $Right = "pages/category1.php";
 include($Path.'assets/inc/footer.php'); ?>
