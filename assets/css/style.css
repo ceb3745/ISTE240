@@ -134,27 +134,47 @@ nav li li a:hover {
 /* ----------------
     Styles for the sidebar menu
   ---------------- */
-
-#sidebar{
-    position: fixed;
-    top: 80px;
-    left: 0px;
-    list-style: none;
+@media screen and (min-width: 1000px){
+    #sidebar{
+        position: fixed;
+        top: 100px;
+        left: 0px;
+        list-style: none;
+        width: 10%;
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    #sidebar a{
+        color: grey;
+        text-decoration: none;
+    }
+    
+    #sidebar h2{
+        font-size: 1.5vw;
+        font-family: sans-serif;
+        padding: 0%;
+        margin: 20px auto 20px 12px;
+    }
+    
+    #sidebar a:hover{
+        text-decoration: underline;
+    }
+    
+    #sidebar a:visited{
+        color: black;
+    }
 }
 
-#sidebar a{
-    color: grey;
-    font-family: sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-}
+@media screen and (max-width: 1000px){
+    #sidebar{
+        display: none;
+    }
 
-#sidebar a:hover{
-    text-decoration: underline;
-}
-
-#sidebar a:visited{
-    color: black;
+    main{
+        margin-left: auto;
+    }
 }
 
 /* ----------------
