@@ -51,6 +51,4 @@ include($Path.'assets/inc/nav.php'); ?>
 
 <?php
     $Path = "../";
-  $Left = "./ssh.php";
-  $Right = "";
 include($Path.'assets/inc/footer.php'); ?>
