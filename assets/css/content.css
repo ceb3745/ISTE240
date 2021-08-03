@@ -2,9 +2,9 @@
     Beginning of Main Content Styles
   ---------------- */
 
-  main{
+main{
     width: 85%;
-    margin: 80px auto 50px 10%;
+    margin: 120px auto 50px 10%;
 }
 
 main h1{
@@ -12,10 +12,13 @@ main h1{
     width: auto;
     text-align: left;
 }
-
 main h2{
     font-size: 24px;
     width: auto;
     text-align: left;
 }
 
+main p{
+    font-family: sans-serif;
+    font-size: 16px;
+} 
