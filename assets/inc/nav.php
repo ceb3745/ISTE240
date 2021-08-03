@@ -7,6 +7,7 @@
     <link rel="stylesheet" <?php echo "href='".$Path."assets/css/dynamicstyle.css'" ?>>
     <link rel="stylesheet" <?php echo "href='".$Style."'"?>>
     <script type="text/javascript" <?php echo "src='".$Path."assets/js/nav.js'" ?>></script>
+    <script type="text/javascript" <?php echo "src='".$Path."assets/js/quiz.js'" ?>></script>
     <title><?php echo $Page; ?></title>
 </head>
 <body>
