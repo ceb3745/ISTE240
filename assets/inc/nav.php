@@ -17,7 +17,7 @@
     </a>
     <a class="homebtn" <?php echo "href='".$Path."'"?> class="active">Home</a>
     <div class="dropdown">
-        <button class="dropbtn"><a <?php echo "href='".$Path."pages/category1.php'" ?>>Introduction to Unix</a>
+        <button class="dropbtn"><a class="nav-item" <?php echo "href='".$Path."pages/category1.php'" ?>>Introduction to Unix &nbsp <i class="arrow down"></i></a>
         <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -27,7 +27,7 @@
         </div>
     </div> 
     <div class="dropdown">
-        <button class="dropbtn"><a <?php echo "href='".$Path."pages/category2.php'" ?>>Basics of Unix</a>
+        <button class="dropbtn"><a class="nav-item" <?php echo "href='".$Path."pages/category2.php'" ?>>Basics of Unix  &nbsp<i class="arrow down"></i></a>
         <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -37,7 +37,7 @@
         </div>
     </div> 
     <div class="dropdown">
-        <button class="dropbtn"><a <?php echo "href='".$Path."pages/category3.php'" ?>>Advanced Unix </a>
+        <button class="dropbtn"><a class="nav-item" <?php echo "href='".$Path."pages/category3.php'" ?>>Advanced Unix  &nbsp<i class="arrow down"></i></a>
         <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
