@@ -44,7 +44,10 @@ include($Path.'assets/inc/nav.php'); ?>
 
 
 </main>
-
+<?php
+	$Path = "../";
+	include($Path.'assets/inc/quiz/multiple_choice.php');
+?>
 <?php
     $Path = "../";
   $Left = "./howto.php";
