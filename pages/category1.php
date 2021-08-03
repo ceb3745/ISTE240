@@ -1,49 +1,43 @@
 <?php 
-	$Page = "Introduction to UNIX";
+	$Page = "Files";
 	$Path = "../";
     $Style = $Path."/assets/css/dynamicstyle.css";
 include($Path.'assets/inc/nav.php'); ?>
-    <ul id="sidebar">
-        <li>
-            <a href="./definition.php"><h2>What is UNIX</h2></a>
-        </li>
-        <li>
-            <a href="./howto.php"><h2>How to Use</h2></a>
-        </li>
-        <li>
-            <a href="./important.php"><h2>Why is UNIX important</h2></a>
-        </li>
-    </ul>
+    
 
     <main>
-        <h1>Category 1 -- Introduction to Unix</h1>
+        <h1 class="font-sfprodsb f-34">Category Heading</h1>
         <p>
-            Welcome to the Category 1!
-        <br>
-            In this tutorial, you will get basic concepts of Unix, how to open this application, and why Unix is essential to learn.
-
+            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
+            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
+            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
+            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
+            Welcome to this area of the site where we will type something important for you to read. There will be some links below here for navigation purposes. 
         </p>
-        <h2>
-            Lessons 
+        <h2 class="font-sfprodsb f-22">
+            Subcategory 1
         </h2>
+        <p>
+            This will have a brief overview of the content for this subcategory and then a link to the page containing that content. This will have a brief overview of 
+            the content for this subcategory and then a link to the page containing that content. This will have a brief overview of the content for this subcategory and 
+            then a link to the page containing that content. This will have a brief overview of the content for this subcategory and then a link to the page containing that content. 
+        </p>
 
-            <ul id="lessons">
-        <li>
-            <a href="./definition.php">What is UNIX</a>
+        <a class="pagelink a-style" href="lesson1.php"><p>Link to Subcategory</p></a>
+    </main>
+    <ul class="list-none d-flex" id="sidebar">
+        <li class="m-0-10">
+            <a href="./pages/lesson1.php"><button class="white-btn font-sfprotsb f-17">Lesson 1</button></a>
         </li>
-        <li>
-            <a href="./howto.php">How to Use</a>
+        <li class="m-0-10">
+            <a href="./pages/lesson2.php"><button class="white-btn font-sfprotsb f-17">Lesson 2</button></a>
         </li>
-        <li>
-            <a href="./important.php">Why is UNIX important</a>
+        <li class="m-0-10">
+            <a href="./pages/lesson3.php"><button class="white-btn font-sfprotsb f-17">Lesson 3</button></a>
         </li>
     </ul>
-            
-   
-    </main>
-
-<?php
+</body>
+<?php 
     $Path = "../";
-  $Left = "";
-  $Right = "./definition.php";
+    $Style = $Path."/assets/css/category.css";
 include($Path.'assets/inc/footer.php'); ?>

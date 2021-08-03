@@ -1,5 +1,5 @@
 <?php 
-	$Page = "How to use UNIX";
+	$Page = "Files";
 	$Path = "../";
     $Style = $Path."/assets/css/dynamicstyle.css";
 include($Path.'assets/inc/nav.php'); ?>   
@@ -17,6 +17,4 @@ include($Path.'assets/inc/nav.php'); ?>
             </main>
 <?php
     $Path = "../";
-  $Left = "./definition.php";
-  $Right = "./important.php";
 include($Path.'assets/inc/footer.php'); ?>

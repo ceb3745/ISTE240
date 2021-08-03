@@ -44,6 +44,4 @@ include($Path.'assets/inc/nav.php'); ?>
 
 <?php
     $Path = "../";
-  $Left = "./files.php";
-  $Right = "./permissions.php";
 include($Path.'assets/inc/footer.php'); ?>
