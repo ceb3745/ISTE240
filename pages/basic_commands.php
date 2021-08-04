@@ -1,10 +1,21 @@
 <?php
     $Page = "Basic Commands";
     $Path = "../";
-    $Style = $Path."/assets/css/dynamicstyle.css";
+    $Style = $Path."/assets/css/content.css";
 include($Path.'assets/inc/nav.php'); ?>
 
 
+<ul id="sidebar">
+        <li>
+            <a href="./basic_commands.php"><h2>Basic Unix Commands</h2><?php echo '<img src="' . $Path . 'assets/images/bullet.png" alt="bullet">'?></a>
+        </li>
+        <li>
+            <a href="./commands.php"><h2>Other Commands</h2></a>
+        </li>
+        <li>
+            <a href="./navigation.php"><h2>Navigation</h2></a>
+        </li>
+    </ul>
         <main>
         <h1>Basic UNIX Commands</h1>
         <div>

@@ -1,9 +1,20 @@
 <?php 
 	$Page = "How to use UNIX";
 	$Path = "../";
-    $Style = $Path."/assets/css/dynamicstyle.css";
+    $Style = $Path."/assets/css/content.css";
 include($Path.'assets/inc/nav.php'); ?>   
 
+<ul id="sidebar">
+        <li>
+            <a href="./definition.php"><h2>What is UNIX</h2></a>
+        </li>
+        <li>
+            <a href="./howto.php"><h2>How to Use</h2><?php echo '<img src="' . $Path . 'assets/images/bullet.png" alt="bullet">'?></a>
+        </li>
+        <li>
+            <a href="./important.php"><h2>Why is UNIX important</h2></a>
+        </li>
+    </ul>
         <main>
         <h1>How to use UNIX</h1>
         <div>

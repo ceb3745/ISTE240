@@ -1,8 +1,19 @@
 <?php 
 	$Page = "File Management (SFTP)";
 	$Path = "../";
-    $Style = $Path."/assets/css/dynamicstyle.css";
+    $Style = $Path."/assets/css/content.css";
 include($Path.'assets/inc/nav.php'); ?> 
+<ul id="sidebar">
+	<li>
+		<a href="./files.php"><h2>SFTP</h2><?php echo '<img src="' . $Path . 'assets/images/bullet.png" alt="bullet">'?></a>
+	</li>
+	<li>
+		<a href="./ssh.php"><h2>SSH</h2></a>
+	</li>
+	<li>
+		<a href="./permissions.php"><h2>File Ownership and Permissions</h2></a>
+	</li>
+</ul>
 
 <main>
 

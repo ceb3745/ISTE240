@@ -1,7 +1,7 @@
 <?php 
 	$Page = "Basics of UNIX";
 	$Path = "../";
-    $Style = $Path."/assets/css/dynamicstyle.css";
+    $Style = $Path."/assets/css/category.css";
 include($Path.'assets/inc/nav.php'); ?>
     <ul id="sidebar">
         <li>
