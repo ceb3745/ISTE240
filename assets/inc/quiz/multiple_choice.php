@@ -10,7 +10,7 @@
   <div id='ans-1' >
     <label for='option-1' >
       <input type='radio' name='option' value='1' <?php echo (isset($Answer) && $Answer == 'option1') ? 'class="quizOption answer"' : 'class="quizOption"' ?>  id='option-1' />
-      <?php echo $Option1 ?>></label>
+      <?php echo $Option1 ?></label>
     <span id='result-1'></span>
   </div>
   <hr />
