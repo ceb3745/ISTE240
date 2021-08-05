@@ -20,7 +20,7 @@ include($Path.'assets/inc/nav.php'); ?>
         <p>
             This tutorial will introduce you to the advanced Unix commands. We will dive deep into the Unix File system which is essential to understand Unix commands. This will include SFTP, SSH and File ownership and permissions
         <h2>
-            lessons
+            Lessons
         </h2>
     <div class="card-main">
           <div class="card">
