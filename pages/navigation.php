@@ -52,11 +52,21 @@ include($Path.'assets/inc/nav.php'); ?>
 </div>
         </div>
 
+    
+        <?php
+            $question = "To check the current directory and the path it took to get there, what would the user type in?";
+            $qnumber = 1;
+            $Option1 = "path";
+            $Option2 = "cd";
+            $Option3 = "pwd";
+            $Option4 = "ls";
+            $Answer = "option3";
+          	include($Path.'assets/inc/quiz/multiple_choice.php');
+           ?>
+    </main>
 <?php
-	include($Path.'assets/inc/quiz/multiple_choice.php');
- 
-  $Left = "./howto.php";
+  $Path = "../";
+  $Left = "./commands.php";
   $Right = "./category2.php";
 include($Path.'assets/inc/footer.php'); ?>
-
 </main>

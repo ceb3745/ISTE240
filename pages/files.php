@@ -131,6 +131,19 @@ include($Path.'assets/inc/nav.php'); ?>
 	If you use Nano you can operate the text file as you would with a normal text 
 	editor except moving the cursor with the arrow-keys instead of the mouse. '
 	The commands for nano are listed at the bottom of the screen for you to use.</p>
+
+
+	<?php
+            $question = "If a user wishes to quit out of vi without saving, after pressing esc twice, they would need to type ____.";
+            $qnumber = 1;
+            $Option1 = "w";
+            $Option2 = "w!";
+            $Option3 = "q";
+            $Option4 = "q!";
+            $Answer = "option4";
+          	include($Path.'assets/inc/quiz/multiple_choice.php');
+           ?>
+
     </main>
 
 

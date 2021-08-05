@@ -51,6 +51,16 @@ include($Path.'assets/inc/nav.php'); ?>
             </div>
         </ul>
     </div>
+    <?php
+            $question = "Which of these commands allows you to log into a remote server?";
+            $qnumber = 1;
+            $Option1 = "ssh -l";
+            $Option2 = "exit";
+            $Option3 = "ssh -v";
+            $Option4 = "ssh -login";
+            $Answer = "option1";
+          	include($Path.'assets/inc/quiz/multiple_choice.php');
+           ?>
     </main>
 
 <?php
