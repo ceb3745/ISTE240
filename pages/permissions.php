@@ -1,5 +1,5 @@
 <?php 
-	$Page = "Files";
+	$Page = "Permissions";
 	$Path = "../";
     $Style = $Path."/assets/css/content.css";
 include($Path.'assets/inc/nav.php'); ?>
