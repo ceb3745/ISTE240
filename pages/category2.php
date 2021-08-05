@@ -31,17 +31,33 @@ include($Path.'assets/inc/nav.php'); ?>
             Lessons
         </h2>
         
-            <ul id="lessons">
-        <li>
-            <a href="./basic_commands.php">Basic Unix Commands</a>
-        </li>
-        <li>
-            <a href="./commands.php">Other Commands</a>
-        </li>
-        <li>
-            <a href="./navigation.php">Navigation</a>
-        </li>
-    </ul>
+    <div class="card-main">
+          <div class="card">
+  
+            <div class="card-content">
+              <a href="./basic_commands.php">
+                <p class="card-category  font-sfprotsb f-17">Basic Unix Commands<i class="fas fa-chevron-right fa-sm"></i></p>
+              </a>
+            </div>
+          </div>
+  
+          <div class="card">
+  
+            <div class="card-content">
+              <a href="./commands.php">
+                <p class="card-category  font-sfprotsb f-17">Other Commands<i class="fas fa-chevron-right fa-sm"></i></p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+  
+            <div class="card-content">
+              <a href="./navigation.php">
+                <p class="card-category  font-sfprotsb f-17">Navigation<i class="fas fa-chevron-right fa-sm"></i></p>
+              </a>
+            </div>
+        </div>
+    </div>
     </main>
 
 <?php

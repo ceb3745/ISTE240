@@ -1,7 +1,12 @@
+    <div class="footerNav">
+      <div><a <?php echo "href='".$Path."pages/resources.php'"?> >Resources</a></div>
+      <div><a <?php echo "href='".$Path."pages/about.php'"?> >About</a></div>
+    </div>
     <div class="bottom">
     <br>
     <hr class="thick">
     <br>
+    
 <div class="circles">
     <a <?php echo "href='".$Left."'" ?>><img class="left" <?php echo "src='".$Path."assets/images/left.svg'" ?> alt="left"  width="50" height="50"></a>
     <p class="Btitle"><?php echo $Page;?></p>
