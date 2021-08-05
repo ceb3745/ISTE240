@@ -2,7 +2,6 @@
 
 <?php
   echo "<h3>Question ".$qnumber."</h3>";
-  echo "<p>".$question."</p>";
 ?>
 
 
