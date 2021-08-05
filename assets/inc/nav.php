@@ -11,7 +11,7 @@
     <title><?php echo $Page; ?></title>
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
+    <nav class="topnav" id="myTopnav">
     <a <?php echo "href='".$Path."index.php'"?>>
         <img class="smalllogo" <?php echo "src='".$Path."assets/images/logo-1.png'"?> alt="logo" width="60" height="60">
     </a>
@@ -48,5 +48,5 @@
     </div> 
         
       <a  href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
+</nav>
     
