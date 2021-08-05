@@ -13,7 +13,7 @@
 <body>
     <div class="topnav" id="myTopnav">
     <a <?php echo "href='".$Path."index.php'"?>>
-        <img class="smalllogo" <?php echo "src='".$Path."assets/images/smalllogo.svg'"?> alt="logo" width="50" height="50">
+        <img class="smalllogo" <?php echo "src='".$Path."assets/images/logo-1.png'"?> alt="logo" width="60" height="60">
     </a>
     <a class="homebtn" <?php echo "href='".$Path."'"?> class="active">Home</a>
     <div class="dropdown">
