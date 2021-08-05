@@ -85,6 +85,16 @@ body {
 	color: #6172ff;
 }
 
+.footerNav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 26px 0px;
+  bottom: 0;
+	background-image: linear-gradient(to right, #CDBAFA, #CDDDF4);
+}
+
 
 /* nav */
 
@@ -116,6 +126,7 @@ a.nav-item:hover{
 	flex-direction: row;
   align-items: stretch;
 	background-image: linear-gradient(to right, #CDBAFA, #CDDDF4);
+  z-index: 4;
 }
 
 .homebtn {
@@ -230,6 +241,7 @@ hr.thick {
 /*main content*/
 
 main {
+  min-height: 100vh;
 	width: 80%;
 	margin: 10px auto 50px;
 }
@@ -408,6 +420,7 @@ main {
 	}
 	/* main section */
 	main {
+   margin-top: 60px;
 		margin-left: auto;
 		margin-right: auto;
 	}
