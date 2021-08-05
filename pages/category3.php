@@ -22,17 +22,33 @@ include($Path.'assets/inc/nav.php'); ?>
         <h2>
             lessons
         </h2>
-        <ul id="lessons">
-        <li>
-            <a href="./files.php">SFTP</a>
-        </li>
-        <li>
-            <a href="./ssh.php">SSH</a>
-        </li>
-        <li>
-            <a href="./permissions.php">File Ownership and Permissions</a>
-        </li>
-    </ul>
+    <div class="card-main">
+          <div class="card">
+  
+            <div class="card-content">
+              <a href="./files.php">
+                <p class="card-category  font-sfprotsb f-17">SFTP<i class="fas fa-chevron-right fa-sm"></i></p>
+              </a>
+            </div>
+          </div>
+  
+          <div class="card">
+  
+            <div class="card-content">
+              <a href="./ssh.php">
+                <p class="card-category  font-sfprotsb f-17">SSH<i class="fas fa-chevron-right fa-sm"></i></p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+  
+            <div class="card-content">
+              <a href="./permissions.php">
+                <p class="card-category  font-sfprotsb f-17">File Ownership and Permissions<i class="fas fa-chevron-right fa-sm"></i></p>
+              </a>
+            </div>
+        </div>
+    </div>
     </main>
 
 <?php
