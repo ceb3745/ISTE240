@@ -44,10 +44,23 @@ include($Path.'assets/inc/nav.php'); ?>
             </ul>
             </div>
         </div>
-            </main>
+        
 
-<?php
-    $Path = "../";
-    $Left = "./category2.php";
-    $Right = "./commands.php";
-include($Path.'assets/inc/footer.php'); ?>
+          <?php
+            $question = "How does the number 5 effect file permissions?";
+            $qnumber = 1;
+            $Option1 = "It allows the file to be read as written in";
+            $Option2 = "It allows the file to be read and executable";
+            $Option3 = "It allows the file to be written in and executable";
+            $Option4 = "It just allows the file to be read";
+            $Answer = "option2";
+          	include($Path.'assets/inc/quiz/multiple_choice.php');
+           ?>
+</main>
+            
+ <?php 
+  $Path = "../";
+  $Left = "./category2.php";
+  $Right = "./commands.php";
+  include($Path.'assets/inc/footer.php');
+ ?>
