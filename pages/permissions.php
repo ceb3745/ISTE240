@@ -1,5 +1,5 @@
 <?php 
-	$Page = "Permissions";
+	$Page = "Files";
 	$Path = "../";
     $Style = $Path."/assets/css/content.css";
 include($Path.'assets/inc/nav.php'); ?>
@@ -58,6 +58,16 @@ include($Path.'assets/inc/nav.php'); ?>
             <li>Chmod uo+w dir		Adds write permissions to user and others</li>
             <li>Chmod a=rwx		Sets all permissions to rwx</li>
         </ul>
+        <?php
+            $question = "How does the number 5 effect file permissions?";
+            $qnumber = 1;
+            $Option1 = "It allows the file to be read as written in";
+            $Option2 = "It allows the file to be read and executable";
+            $Option3 = "It allows the file to be written in and executable";
+            $Option4 = "It just allows the file to be read";
+            $Answer = "option2";
+          	include($Path.'assets/inc/quiz/multiple_choice.php');
+           ?>
     </main>
 
 <?php
