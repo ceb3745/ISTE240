@@ -17,9 +17,9 @@
     </a>
     <a class="homebtn" <?php echo "href='".$Path."'"?>>Home</a>
     <div class="dropdown">
-        <a class="nav-item" <?php echo "href='".$Path."pages/category1.php'" ?>> <button class="dropbtn">Introduction to Unix &nbsp; <i class="arrow down"></i>
+        <button class="dropbtn"><a class="nav-item" <?php echo "href='".$Path."pages/category1.php'" ?>> Introduction to Unix &nbsp; <i class="arrow down"></i>
         <i class="fa fa-caret-down"></i>
-        </button></a>
+        </a></button>
         <div class="dropdown-content">
         <a <?php echo "href='".$Path."pages/definition.php'" ?>>What is Unix?</a>
         <a <?php echo "href='".$Path."pages/howto.php'" ?>>How to Use</a>
@@ -27,9 +27,9 @@
         </div>
     </div> 
     <div class="dropdown">
-        <a class="nav-item" <?php echo "href='".$Path."pages/category2.php'" ?>><button class="dropbtn">Basics of Unix  &nbsp;<i class="arrow down"></i>
+        <button class="dropbtn"><a class="nav-item" <?php echo "href='".$Path."pages/category2.php'" ?>>Basics of Unix  &nbsp;<i class="arrow down"></i>
         <i class="fa fa-caret-down"></i>
-        </button></a>
+        </a></button>
         <div class="dropdown-content">
         <a <?php echo "href='".$Path."pages/basic_commands.php'" ?>>Basic Unix Commands</a>
         <a <?php echo "href='".$Path."pages/commands.php'" ?>>Other Commands</a>
@@ -37,9 +37,9 @@
         </div>
     </div> 
     <div class="dropdown">
-        <a class="nav-item" <?php echo "href='".$Path."pages/category3.php'" ?>><button class="dropbtn">Advanced Unix  &nbsp;<i class="arrow down"></i>
+        <button class="dropbtn"><a class="nav-item" <?php echo "href='".$Path."pages/category3.php'" ?>>Advanced Unix  &nbsp;<i class="arrow down"></i>
         <i class="fa fa-caret-down"></i>
-        </button></a>
+        </a></button>
         <div class="dropdown-content">
         <a <?php echo "href='".$Path."pages/files.php'" ?>>SFTP</a>
         <a <?php echo "href='".$Path."pages/ssh.php'" ?>>SSH</a>
