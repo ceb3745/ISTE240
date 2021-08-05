@@ -16,36 +16,32 @@ include($Path.'assets/inc/nav.php'); ?>
         </li>
     </ul>
     <main>
-        <br>
-  <h1>Commands in UNIX</h1>
-        <p>
-        There are many different commands you will need to know in order to effectively make use of all that UNIX has to offer. 
-	In this section, some of the most common commands available in UNIX are going to be covered.
-        </p>
-        <h2>
-        SSH
-        </h2>
-        <p>
-        This command is used to start the SSH client program, safely connecting to the SSH server on the remote machine. 
-	The ssh command is used for logging in to a remote device, transfer files between two machines, and execute commands on the remote machine.
-        </p>
-	<a href="link_to_ssh">SSH</a>
-	<h2>
-	Directories
-	</h2>
-	<p>
-	Directory commands allow you to navigate through the directories and folders and look through files on your computer. 
-	This lesson will allow you to become familiar with some of the most basic directory and navigation commands.
-	</p>
-	<a href="like_to_directory">Directories</a>
-	<h2>
-	File Managment
-	</h2>
-	<p>
-	This lesson will explain how to edit and move your files using UNIX.
-	</p>
-	<a href="link_to_files">File Management</a>
+        
+    <h2>touch file</h2>
+<p>Creates an empty file or updates modification/access date.</p>
+<h2>mv file1 file2</h2>
+<p>Renames file1 to be file2</p>
+<h2>cp file1 file2</h2>
+<p>Copies file1 to file2</p>
+<h2>cp-r dir1 dir2</h2>
+<p>Copies directory dir1 and all of its contents to dir2</p>
+<h2>rm file</h2>
+<p>Deletes the file</p>
+<h2>rmdir</h2>
+<p>deletes a directory and all of its contents, recursively, to the bottom of the tree</p>
+<h2>cat file1 file2</h2>
+<p>Concatenates and prints the named files to the screen</p>
 	
+    <?php
+            $question = "Which command allows the user to be able to read the contents of a file?";
+            $qnumber = 1;
+            $Option1 = "cat";
+            $Option2 = "contents";
+            $Option3 = "read";
+            $Option4 = "rd";
+            $Answer = "option1";
+          	include($Path.'assets/inc/quiz/multiple_choice.php');
+           ?>
     </main>
 <?php 
     $Path = "../";

@@ -44,6 +44,16 @@ include($Path.'assets/inc/nav.php'); ?>
             </ul>
             </div>
         </div>
+        <?php
+            $question = "Which command brings up all the paths (files and directories) that the user can go to? ";
+            $qnumber = 1;
+            $Option1 = "is";
+            $Option2 = "ls";
+            $Option3 = "showpaths";
+            $Option4 = "givepaths";
+            $Answer = "option2";
+          	include($Path.'assets/inc/quiz/multiple_choice.php');
+           ?>
         
 </main>
             
