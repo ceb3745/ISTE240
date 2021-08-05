@@ -1,5 +1,5 @@
 <?php 
-	$Page = "Files";
+	$Page = "SSH";
 	$Path = "../";
     $Style = $Path."/assets/css/content.css";
 include($Path.'assets/inc/nav.php'); ?>
