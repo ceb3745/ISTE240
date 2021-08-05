@@ -1,7 +1,8 @@
 <div>
 
 <?php
-  echo "<h3>Question ".$qnumber."</h3>";
+  echo "<h3>Question</h3>";
+  echo "<p>".$question."</p>";
 ?>
 
 
